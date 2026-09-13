@@ -412,11 +412,7 @@ public class ChunkProviderGenerate
 
 
 		var11 = 0.5D;
-<<<<<<< HEAD
 		genX = (int)((this.mobSpawnerNoise.func_647_a((double)blockX * var11, (double)blockY * var11) / 8.0D + this.rand.nextDouble() * 4.0D + 4.0D) / 3.0D);
-=======
-		genX = (int)((this.mobSpawnerNoise.func_806_a((double)blockX * var11, (double)blockY * var11) / 8.0D + this.rand.nextDouble() * 4.0D + 4.0D) / 3.0D);
->>>>>>> ad3b459c974bba537ca12be9c34ee8b54dd0a96f
 		genY = 0;
 		if(this.rand.nextInt(10) == 0) {
 			++genY;
@@ -455,11 +451,7 @@ public class ChunkProviderGenerate
 			var16 = blockX + this.rand.nextInt(16) + 8;
 			var17 = blockY + this.rand.nextInt(16) + 8;
 			WorldGenerator var18 = whatBiome.getRandomWorldGenForTrees(this.rand);
-<<<<<<< HEAD
 			var18.func_420_a(1.0D, 1.0D, 1.0D);
-=======
-			var18.func_517_a(1.0D, 1.0D, 1.0D);
->>>>>>> ad3b459c974bba537ca12be9c34ee8b54dd0a96f
 			var18.generate(this.worldObj, this.rand, var16, this.worldObj.getHeightValue(var16, var17), var17);
 		}
 
